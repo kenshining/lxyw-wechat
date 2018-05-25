@@ -1,0 +1,25 @@
+/* pages/news/new_products.wxss */
+/**index.wxss**/
+.swiper {
+  height: 400rpx;
+  width: 100%;
+}
+.swiper image {
+  height: 100%;
+  width: 100%;
+}
+.scroll-view{
+  width: 100%;
+  height: 1208rpx;
+}
+.scroll-view .list{
+  margin: 20rpx 10rpx;
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-content: flex-start;
+  height: 150rpx;
+}
+.scroll-view .list .item{
+  
+}

@@ -1,0 +1,18 @@
+<!--pages/news/new_products.wxml-->
+<view class='container'>
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="5000" duration="1000">    
+      <block wx:for="{{pomotes}}" wx:for-index="index">    
+        <swiper-item>    
+          <image src="{{item.url}}" class="slide-image" mode="aspectFill"/>    
+        </swiper-item>    
+      </block>    
+    </swiper>
+    <scroll-view scroll-y="true" class='scroll-view' bindscrolltolower="loadMore">
+      <view class='list' wx:for="{{news}}" wx:key="index">
+        <view class="item">
+          <image src="{{item.url}}" style='width:80rpx;height:80rpx;'></image>
+        </view>
+        <view class="item">dfsafdsaf</view>
+      </view>
+    </scroll-view>
+</view>
