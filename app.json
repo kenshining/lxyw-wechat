@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/news/new_products",
+    "pages/products/products_list",
+    "pages/about/about_us"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "乐享御味",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#8a8a8a",
+    "selectedColor": "#2c2c2c",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/news/new_products",
+        "iconPath": "themes/default/imgs/all.png",
+        "selectedIconPath":"themes/default/imgs/all-s.png"
+      },
+      {
+        "text": "产品&订购",
+        "pagePath": "pages/products/products_list",
+        "iconPath": "themes/default/imgs/Category.png",
+        "selectedIconPath": "themes/default/imgs/Category-s.png"
+      },
+      {
+        "text": "客户服务",
+        "pagePath": "pages/products/products_list",
+        "iconPath": "themes/default/imgs/service.png",
+        "selectedIconPath": "themes/default/imgs/service-s.png"
+      },
+      {
+        "text": "关于我们",
+        "pagePath": "pages/about/about_us",
+        "iconPath": "themes/default/imgs/logistic.png",
+        "selectedIconPath": "themes/default/imgs/logistic-s.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 20000,
+    "downloadFile": 20000
+  }
+}
