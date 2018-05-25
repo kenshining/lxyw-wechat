@@ -12,3 +12,25 @@
   margin: 0 auto;
   font-size: 20rpx;
 }
+.list-container{
+  width: 100%;
+  height: auto;
+}
+.list-container .item{
+  width: 96%;
+  height: 200rpx;
+  border-radius: 10rpx;
+  border: 1rpx #CCC solid;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 20rpx;
+  box-shadow: 3px 1px 1px #CCC;
+}
+.list-container .item .title{
+  padding: 10rpx;
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.list-container .item .title .text{
+  
+}

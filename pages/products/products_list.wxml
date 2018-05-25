@@ -1,4 +1,15 @@
 <!--pages/products/products_list.wxml-->
-<view class='searchBar'>
-  <input placeholder='请输入产品名称...'></input>
-</view>
+<scroll-view scroll-y="true" scroll-with-animation="true" enable-back-to-top="true">
+  <view class='searchBar'>
+    <input placeholder='请输入产品名称...' confirm-type='search'></input>
+  </view>
+  <view class='list-container'>
+      <view class='item'>
+        <view class='title'>印尼蓝可乐</view>
+        <view>
+          <view>图片</view>
+          <view>文字</view>
+        </view>
+      </view>
+  </view>
+</scroll-view>
