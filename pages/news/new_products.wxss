@@ -20,6 +20,34 @@
   align-content: flex-start;
   height: 150rpx;
 }
-.scroll-view .list .item{
-  
+.scroll-view .list .item:nth-child(2){
+  padding-left: 25rpx;
+  font-size: 26rpx;
+  font-weight: bold;
+  width: 100%;
+}
+.scroll-view .list .title{
+  width: 100%;
+}
+.scroll-view .list .subtitle{
+  color: #666;
+  font-size: 20rpx;
+  text-indent: 2em;
+  height: 70rpx;
+  width: 100%;
+  padding-top: 10rpx;
+}
+.scroll-view .list .more{
+  padding-top: 5rpx;
+  text-align: right;
+  padding-right: 20rpx;
+}
+.scroll-view .list .more .button{
+  width: 50rpx;
+  height: 20rpx;
+  font-size: 20rpx;
+  border: 1rpx #3385ff solid;
+  border-radius: 10rpx;
+  padding: 5rpx 10rpx;
+  color: #3385ff;
 }

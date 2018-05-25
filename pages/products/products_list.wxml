@@ -1,2 +1,4 @@
 <!--pages/products/products_list.wxml-->
-<text>pages/products/products_list.wxml</text>
+<view class='searchBar'>
+  <input placeholder='请输入产品名称...'></input>
+</view>

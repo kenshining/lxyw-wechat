@@ -10,9 +10,15 @@
     <scroll-view scroll-y="true" class='scroll-view' bindscrolltolower="loadMore">
       <view class='list' wx:for="{{news}}" wx:key="index">
         <view class="item">
-          <image src="{{item.url}}" style='width:80rpx;height:80rpx;'></image>
+          <image src="{{item.url}}" style='width:150rpx;height:150rpx;'></image>
         </view>
-        <view class="item">dfsafdsaf</view>
+        <view class="item">
+          <view class='title'><text>{{item.title}}</text></view>
+          <view class='subtitle'><text>{{item.subTitle}}</text></view>
+          <view class='more'>
+            <a class="button">详细</a>
+          </view>
+        </view>
       </view>
     </scroll-view>
 </view>

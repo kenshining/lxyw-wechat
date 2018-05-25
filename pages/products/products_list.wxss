@@ -1,1 +1,14 @@
 /* pages/products/products_list.wxss */
+.searchBar{
+  height: 84rpx;
+  width: 100%;
+  border-bottom: 1rpx #CCC solid;
+}
+.searchBar input{
+  border: 1px #CCC solid;
+  border-radius: 10rpx;
+  padding: 5rpx 20rpx;
+  width: 80%;
+  margin: 0 auto;
+  font-size: 20rpx;
+}
