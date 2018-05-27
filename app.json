@@ -2,7 +2,8 @@
   "pages": [
     "pages/news/new_products",
     "pages/products/products_list",
-    "pages/about/about_us"
+    "pages/about/about_us",
+    "pages/customer/customer_service"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -20,7 +21,7 @@
         "text": "首页",
         "pagePath": "pages/news/new_products",
         "iconPath": "themes/default/imgs/all.png",
-        "selectedIconPath":"themes/default/imgs/all-s.png"
+        "selectedIconPath": "themes/default/imgs/all-s.png"
       },
       {
         "text": "产品&订购",
@@ -30,7 +31,7 @@
       },
       {
         "text": "客户服务",
-        "pagePath": "pages/products/products_list",
+        "pagePath": "pages/customer/customer_service",
         "iconPath": "themes/default/imgs/service.png",
         "selectedIconPath": "themes/default/imgs/service-s.png"
       },
