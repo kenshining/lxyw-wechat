@@ -4,12 +4,29 @@
     <input placeholder='请输入产品名称...' confirm-type='search'></input>
   </view>
   <view class='list-container'>
-      <view class='item'>
-        <view class='title'>印尼蓝可乐</view>
-        <view>
-          <view>图片</view>
-          <view>文字</view>
+
+      <view class='item' wx:for="{{products}}" wx:key="index">
+        <view class='note'>
+          <view class='l'>
+            <image src='{{item.img}}'></image>
+          </view>
+          <view class='r'>
+              <view class='title'>
+                {{item.title}}
+                <view class='hot'>热销商品</view>
+                <view class='orange'>折扣</view>
+                <view class='green'>清仓</view>
+              </view>
+              <view class='subtitle'>
+                  {{item.subtitle}}
+              </view>
+              <view class='control'>
+                <a class='btn btn-primary'>查看详情</a>
+                <a class='btn btn-oliverdrab'>我要询价</a>
+              </view>
+          </view>
         </view>
       </view>
+      
   </view>
 </scroll-view>

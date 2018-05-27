@@ -5,6 +5,18 @@ Page({
    * 页面的初始数据
    */
   data: {
+
+    products: [
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle:' 产地：印尼 规格：650ml * 24瓶/箱'},
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle: ' 产地：印尼 规格：650ml * 24瓶/箱' },
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle: ' 产地：印尼 规格：650ml * 24瓶/箱' },
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle: ' 产地：印尼 规格：650ml * 24瓶/箱' },
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle: ' 产地：印尼 规格：650ml * 24瓶/箱' },
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle:' 产地：印尼 规格：650ml * 24瓶/箱'},
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle: ' 产地：印尼 规格：650ml * 24瓶/箱' },
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle: ' 产地：印尼 规格：650ml * 24瓶/箱' },
+      { img: '/themes/default/imgs/lankele.jpg', title: '印尼网红蓝可乐，夏季最好卖的货，全现货发售中。', subtitle: ' 产地：印尼 规格：650ml * 24瓶/箱' }
+    ]
   
   },
 

@@ -2,7 +2,9 @@
 .searchBar{
   height: 84rpx;
   width: 100%;
-  border-bottom: 1rpx #CCC solid;
+  position:fixed;
+  top:0;
+  background-color: white;
 }
 .searchBar input{
   border: 1px #CCC solid;
@@ -15,22 +17,98 @@
 .list-container{
   width: 100%;
   height: auto;
+  margin-top: 104rpx;
+}
+.list-container .hot{
+  display: inline-block;
+  border-radius: 3rpx;
+  background-color: red;
+  font-size: 20rpx;
+  color: white;
+  padding: 0 10rpx;
+  margin: 0 10rpx;
+}
+.list-container .orange{
+  display: inline-block;
+  border-radius: 3rpx;
+  background-color:coral;
+  font-size: 20rpx;
+  color: white;
+  padding: 0 10rpx;
+  margin: 0 10rpx;
+}
+.list-container .green{
+  display: inline-block;
+  border-radius: 3rpx;
+  background-color:cadetblue;
+  font-size: 20rpx;
+  color: white;
+  padding: 0 10rpx;
+  margin: 0 10rpx;
 }
 .list-container .item{
   width: 96%;
-  height: 200rpx;
-  border-radius: 10rpx;
-  border: 1rpx #CCC solid;
+  height: auto;
+  border-bottom: 1rpx #CCC dashed;
   margin-left: 2%;
   margin-right: 2%;
   margin-top: 20rpx;
-  box-shadow: 3px 1px 1px #CCC;
+  padding-bottom: 10rpx;
 }
-.list-container .item .title{
-  padding: 10rpx;
+.list-container .item:last-child{
+  border-bottom: none;
+}
+.list-container .item .note{
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-start;
+  align-content: flex-start;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+}
+.list-container .item .note .l{
+  width: 200rpx;
+}
+.list-container .item .note .r{
+  width: 100%;
+  padding-left: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.list-container .item .note .l image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 10rpx;
+}
+.list-container .item .note .r .title{
+  display: block;
+  height: auto;
   font-size: 24rpx;
   font-weight: bold;
 }
-.list-container .item .title .text{
-  
+.list-container .item .note .r .subtitle{
+  margin-top: 10rpx;
+  font-size: 20rpx;
+  color: #CCC;
+}
+.list-container .item .note .r .control{
+  height: auto;
+  text-align: right;
+}
+.list-container .item .btn{
+  display: inline-block;
+  cursor: pointer;
+  padding: 5rpx 10rpx;
+  font-size: 24rpx;
+  border-radius: 8rpx;
+  margin-left: 10rpx;
+}
+.list-container .item .btn-primary{
+  color: royalblue;
+  border: 1rpx royalblue solid;
+}
+.list-container .item .btn-oliverdrab{
+  color: olivedrab;
+  border: 1rpx olivedrab solid;
 }
