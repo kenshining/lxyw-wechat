@@ -1,8 +1,8 @@
 {
   "pages": [
+    "pages/about/about_us",
     "pages/news/new_products",
     "pages/products/products_list",
-    "pages/about/about_us",
     "pages/customer/customer_service"
   ],
   "window": {
