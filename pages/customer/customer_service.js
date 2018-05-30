@@ -5,14 +5,14 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    orderSearch:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+
   },
 
   /**
@@ -62,5 +62,25 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  sanOrder:function(){
+    /**扫码不必指定类型，即可自动识别 */
+    wx.scanCode({
+      onlyFromCamera:false,
+      success:(res) => {
+        console.log(res);
+        //将扫码结果赋予文本框
+        this.setData({
+          //绑定变量同步显示内容
+          orderSearch: res.result
+          //TODO 执行订单查询动作
+        });
+      },
+      fail:(res) => {
+        console.log(res);
+        console.log(JSON.stringify(res));
+      }
+    });
   }
 })
