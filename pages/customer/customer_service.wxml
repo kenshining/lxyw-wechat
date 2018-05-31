@@ -77,5 +77,17 @@
       <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
       <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
     </view>
+    <view class='qa-item'>
+      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
+      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+    </view>
+    <view class='qa-item'>
+      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
+      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+    </view>
+    <view class='qa-item'>
+      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
+      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+    </view>
   </scroll-view>
 </scroll-view>
