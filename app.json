@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/products/products_list",
     "pages/customer/customer_service",
     "pages/about/about_us",
-    "pages/news/new_products",
-    "pages/products/products_list"
+    "pages/news/new_products"
     
   ],
   "window": {

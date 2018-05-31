@@ -70,24 +70,24 @@
       <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
     </view>
     <view class='qa-item'>
-      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
-      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+      <view class='item-Q'>Q：老客户可以优惠吗？</view>
+      <view class='item-A'>A：我们是采用会员积分制，如果您已经订购过我们的商品，您默认会成为我们的会员。根据会员消费量的多少会有不同折扣和抹零优惠。</view>
     </view>
     <view class='qa-item'>
-      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
-      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+      <view class='item-Q'>Q：订购商品后，不想要了，是否可以取消订单？</view>
+      <view class='item-A'>A：请及时与我们的销售员联系，如果商品还未安排发货，则可以无条件取消订单。如果已经发货，则无法直接取消订单，需要您承担相应的运费。</view>
     </view>
     <view class='qa-item'>
-      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
-      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+      <view class='item-Q'>Q：报关、进口等相关手续在哪里查看？</view>
+      <view class='item-A'>A：您预订商品后，销售经理会将订单通过微信、EMAIL等方式传输给您，通过扫描或输入条形码可在客户服务处查询到订单信息，订单信息会附带报关、进口等相关手续资料供您查阅。</view>
     </view>
     <view class='qa-item'>
-      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
-      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+      <view class='item-Q'>Q：关于收货免责有什么规定？</view>
+      <view class='item-A'>A：货品一旦签收，食品饮料类商品属于特殊商品，不支持退换。若有任何问题，请及时与销售经理联系解决。</view>
     </view>
     <view class='qa-item'>
-      <view class='item-Q'>Q：发票寄送地址和货品寄送地址不同可以吗？</view>
-      <view class='item-A'>A：可以，需要在下订单时与销售人员确认清楚。且一旦确认无法修改。</view>
+      <view class='item-Q'>Q：货品运输过程中出现损耗，如何处理？</view>
+      <view class='item-A'>A：若出现损耗问题，这是您与我们都不愿看到的事。物流公司原因造成的商品损耗，我们会要求物流公司赔偿损失，请您协助保留好收货照片，并配合我们收集理赔证据。其他原因损耗，由本部与您共同协商解决。</view>
     </view>
   </scroll-view>
 </scroll-view>

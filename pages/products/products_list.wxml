@@ -22,7 +22,7 @@
               </view>
               <view class='control'>
                 <a class='btn btn-primary'>查看详情</a>
-                <a class='btn btn-oliverdrab'>我要询价</a>
+                <a class='btn btn-oliverdrab' bindtap="addToCar" animation="animation_car">加入询价单</a>
               </view>
           </view>
         </view>
