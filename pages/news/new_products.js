@@ -13,7 +13,7 @@ Page({
       { url: 'http://img02.tooopen.com/images/20141231/sy_78327074576.jpg' }
     ],
     news : [
-      { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg', id: '', title: '热烈庆祝我司5月上海国际食品展获圆满成功', subTitle:'热烈庆祝我司5月上海国际食品展获圆满成功热烈庆祝我司5月上海国际食品展获圆满5月上海国际食品展获圆满5月上海国际食品展获圆满5月上海国际食品展获圆满'},
+      { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg', id: '', title: '热烈庆祝我司5月上海国际食品展获圆满成功', subTitle:'热烈庆祝我司5月上海国际食品展获圆满成功热烈庆祝我司5月上海国际食品展获圆满5'},
       { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg', id: '', title: '热烈庆祝我司5月上海国际食品展获圆满成功', subTitle: '热烈庆祝我司5月上海国际食品展获圆满成功热烈庆祝我司5月上海国际食品展获圆满' },
       { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg', id: '', title: '热烈庆祝我司5月上海国际食品展获圆满成功', subTitle: '热烈庆祝我司5月上海国际食品展获圆满成功热烈庆祝我司5月上海国际食品展获圆满' },
       { url: 'http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg', id: '', title: '热烈庆祝我司5月上海国际食品展获圆满成功', subTitle: '热烈庆祝我司5月上海国际食品展获圆满成功热烈庆祝我司5月上海国际食品展获圆满' },
@@ -91,5 +91,11 @@ Page({
    */
   onShareAppMessage: function () {
   
+  },
+
+  showDetails:function(){
+    wx.navigateTo({
+      url: 'details/new_details'
+    })
   }
 })

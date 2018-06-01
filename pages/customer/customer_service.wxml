@@ -2,8 +2,8 @@
 <scroll-view scroll-y="true" scroll-with-animation="true" enable-back-to-top="true">
   <view class='searchBar'>
     <view class='middle'>
-      <input placeholder='请扫描或输入订单号...' name="orderSearch" value='{{orderSearch}}' confirm-type='search'></input>
       <image src='/themes/default/imgs/scanning-s.png' bindtap='sanOrder'></image>
+      <input placeholder='请扫描或输入订单号...' name="orderSearch" value='{{orderSearch}}' confirm-type='search'></input>
     </view>
   </view>
   <view class='model-title model-title-space'>限时折扣<text class='model-sub'>2018-01-01至2018-02-15</text></view>

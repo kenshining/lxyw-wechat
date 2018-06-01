@@ -1,0 +1,22 @@
+<!--pages/news/details/new_details.wxml-->
+<scroll-view>
+  <view class='title'>热烈祝贺我司上海展会圆满成功</view>
+  <view class='sub-title'>2018年6月1日15:03:20</view>
+  <view class='note'>
+    <text class='h1'>上海展会于2018年5月在XXX举办。</text>
+    <text class='p'>
+      最近，售房推销电话骚扰120的事件，引起了读者的极大关注。随着住建委等相关主管部门的介入，涉事房地产开发企业都受到了相应的处罚。而这些罚单的背后，是读者更多的疑问：如此多的骚扰电话是怎么拨出的？如今楼市那么火爆，开发商还用得着这样大费周章地电话营销吗？昨天，记者对此进行了调查。
+    </text>
+    <image src='http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg'></image>
+    <text class='p'>
+      最近，售房推销电话骚扰120的事件，引起了读者的极大关注。随着住建委等相关主管部门的介入，涉事房地产开发企业都受到了相应的处罚。而这些罚单的背后，是读者更多的疑问：如此多的骚扰电话是怎么拨出的？如今楼市那么火爆，开发商还用得着这样大费周章地电话营销吗？昨天，记者对此进行了调查。
+    </text>
+    <image src='http://img04.tooopen.com/images/20130712/tooopen_17270713.jpg'></image>
+    <text class='p'>
+      最近，售房推销电话骚扰120的事件，引起了读者的极大关注。随着住建委等相关主管部门的介入，涉事房地产开发企业都受到了相应的处罚。而这些罚单的背后，是读者更多的疑问：如此多的骚扰电话是怎么拨出的？如今楼市那么火爆，开发商还用得着这样大费周章地电话营销吗？昨天，记者对此进行了调查。
+    </text>
+  </view>
+  <view class='btn-bar'>
+  <button class='btn' bindtap='back'>返回列表</button>
+  </view>
+</scroll-view>

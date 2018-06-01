@@ -16,7 +16,7 @@
           <view class='title'><text>{{item.title}}</text></view>
           <view class='subtitle'><text>{{item.subTitle}}</text></view>
           <view class='more'>
-            <a class="button">详细</a>
+            <a class="button" bindtap="showDetails">详细</a>
           </view>
         </view>
       </view>

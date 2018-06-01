@@ -1,0 +1,4 @@
+<!--pages/customer/check_bill/check_bill.wxml-->
+<scroll-view>
+ <view>订单：{{orderId}}</view>
+</scroll-view>

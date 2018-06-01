@@ -91,18 +91,7 @@ Page({
   },
 
   addToCar: function (event){
-    let left = event.currentTarget.offsetLeft;
-    let top = event.currentTarget.offsetTop;
     
-    let animation_car_temp = wx.createAnimation({
-      translate: [100,100],
-      duration:1000,
-      timingFunction: "linear"
-    });
-    animation_car_temp.opacity(0.7).step({ duration: 1000 });
-    this.setData({
-      animation_car: animation_car_temp.export()
-    });
   },
 
   bezier: function (points, times) {

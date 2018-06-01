@@ -23,9 +23,9 @@
   width: 100%;
 }
 .searchBar image{
-  margin-left: 10rpx;
-  width: 70rpx;
-  height: 60rpx;
+  margin-right: 20rpx;
+  width: 60rpx;
+  height: 50rpx;
 }
 .model-title{
   width: 100%;
